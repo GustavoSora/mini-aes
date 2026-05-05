@@ -24,7 +24,7 @@ def main():
             case "1":
                 texto_original = input("Digite o texto: ")
                 cifrado = encrypt_text(texto_original, key)
-                print("✅ Criptografado!")
+                print("Criptografado!")
 
             case "2":
                 print("Cifrado:", cifrado if cifrado else "Nada ainda")
@@ -32,7 +32,7 @@ def main():
             case "3":
                 if cifrado:
                     texto_decifrado = decrypt_text(cifrado, key)
-                    print("✅ Descriptografado!")
+                    print("Descriptografado!")
                 else:
                     print("Nada para descriptografar")
 
